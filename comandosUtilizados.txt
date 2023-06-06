@@ -11,7 +11,7 @@
    50  mkdir Terminal Hardware
    51  cd Terminal/
    52  touch resumen.txt
-   53  mv resumen.txt ../Hardware/
+   53  cp resumen.txt ../Hardware/
    54  cd ..
    55  cd Hardware/
    56  ls a
@@ -32,3 +32,5 @@
    71  mv comandos.txt comandosUtilizados.txt
    72  ls
    73  history>"comandosUtilizados.txt"
+   74  git commit -m "03 DianaGaleano"
+   75  git push origin main
