@@ -1,0 +1,5 @@
+1- git init
+2- git push origin main
+3- git commit -m "mensaje"
+4- git add .
+5- git status
