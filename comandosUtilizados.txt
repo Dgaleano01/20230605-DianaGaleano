@@ -1,0 +1,34 @@
+   40  git clone https://github.com/Dgaleano01/20230605-DianaGaleano.git
+   41  cd 20230605-DianaGaleano/
+   42  touch comandos.txt main.js index.html
+   43  git commit -m "01 DianaGaleano"
+   44  git add .
+   45  git commit -m "01 DianaGaleano"
+   46  git push origin main
+   47  git branch feature01
+   48  git branch feature01
+   49  git checkout feature01
+   50  mkdir Terminal Hardware
+   51  cd Terminal/
+   52  touch resumen.txt
+   53  mv resumen.txt ../Hardware/
+   54  cd ..
+   55  cd Hardware/
+   56  ls a
+   57  ls
+   58  cd ..
+   59  git push origin feature01
+   60  git branch feature02
+   61  git checkout feature02
+   62  cd Terminal/
+   63  ls
+   64  git add .
+   65  cd ..
+   66  git add .
+   67  git status
+   68  git commit -m "02 DianaGaleano"
+   69  git push origin feature02
+   70  git checkout main
+   71  mv comandos.txt comandosUtilizados.txt
+   72  ls
+   73  history>"comandosUtilizados.txt"
